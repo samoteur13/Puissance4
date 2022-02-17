@@ -1,0 +1,51 @@
+@media screen and (max-width: 600px) {
+   
+    table button {
+    
+        font-family: cursive;
+        font-size: 40PX;
+        margin: 0px;
+        padding: 0px;
+        height: 55px;
+        width: 55px;
+        border-radius: 50%;
+    }
+
+    #score {
+        border: solid 2px ;
+        border-radius: 10px;
+        box-shadow: black 5px 5px 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+   
+  }
+
+
+@media screen and (max-width: 400px) {
+   
+    table button {
+    
+        font-family: cursive;
+        font-size: 40PX;
+        margin: 0px;
+        padding: 0px;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    }
+
+    #score {
+        border: solid 2px ;
+        border-radius: 10px;
+        box-shadow: black 5px 5px 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+   
+  }
+
