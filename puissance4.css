@@ -1,6 +1,6 @@
 body {
     color: white;
-    background-image: url(../puissance4/img/Soothing-nature-backgrounds-2.jpg);
+    background-image: url(./img/Soothing-nature-backgrounds-2.jpg);
     background-size: cover;
     font-family: cursive, sans-serif;
 }
@@ -12,9 +12,6 @@ header {
     font-weight: bold;
 }
 
-main {
-
-}
 
 h2 {
     font-size: 40px;
@@ -92,8 +89,7 @@ table {
 
 table button {
     background-color: grey;
-    font-family: cursive;
-    font-size: 1px;
+    font-size: 1px !important;
     margin: 0px;
     padding: 0px;
     height: 80px;

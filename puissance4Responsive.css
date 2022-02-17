@@ -1,8 +1,11 @@
 @media screen and (max-width: 600px) {
-   
-    table button {
     
-        font-family: cursive;
+    body{
+        font-family: sans-serif;
+    }
+
+    table button {
+ 
         font-size: 40PX;
         margin: 0px;
         padding: 0px;
@@ -25,10 +28,13 @@
 
 
 @media screen and (max-width: 400px) {
+
+    body{
+        font-family: sans-serif;
+    }
    
     table button {
     
-        font-family: cursive;
         font-size: 40PX;
         margin: 0px;
         padding: 0px;

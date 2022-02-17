@@ -174,6 +174,10 @@ function victoiryif() {
 
                         img.style.display = "block";
                     }, 400); // delai toujours en milliseconde
+                    setTimeout(() => {// appelle ma fonction avec un delai de 1sec
+
+                        img.style.display = "none";
+                    }, 1000); // delai toujours en milliseconde
                     jouer1scor++
                     jouer1.innerHTML = jouer1scor
                     gamer = "gamer 1"
@@ -191,6 +195,10 @@ function victoiryif() {
 
                         img.style.display = "block";
                     }, 400); // delai toujours en milliseconde
+                    setTimeout(() => {// appelle ma fonction avec un delai de 1sec
+
+                        img.style.display = "none";
+                    }, 1000); // delai toujours en milliseconde
                 }
             }
         }
@@ -240,19 +248,6 @@ function Aleatoire(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-// function matchnul() {
-//     var reply = 0;
-//     for (let i = 0; i < grille.length; i++) {
-//         if (grille[i].innerHTML != "") {
-//             reply++
-//         }
-//     }
-//     if (reply === 42) {
-//         test.innerHTML = "Egalité"
-//         gamer = "gamer 1"
-//         return
-//     }
-// }
 
 
 
